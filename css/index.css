@@ -21,10 +21,13 @@ img{
     width: 1200px;
     margin: 0 auto;
 }
+.full{
+    width: 100%;
+}
 .home{
     height: 100px;
     padding: 0px 10px 0px 30px;
-    background-color: silver;
+    background-color: white;
 
 }
 .left{
@@ -38,16 +41,60 @@ img{
     float: right;
     width: 70%;
     color: #685e58;
-    padding: 30px 50px 23px 10px;
+    padding: 35px 50px 23px 10px;
 }
 .ul > li{
     float: right;
-    margin-left:25px;
+    margin-left:50px;
     list-style: none;
     padding: 0px 0;
 }
 li > a{
-    font-size: 22px;
+    font-size: 20px;
     float: left;
     color: #685e58;
+}
+.anhnen{
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position:top;
+    height: 563px;
+    background-image: url("../imgs/bg2.jpg");
+    position: relative;
+}
+.chuto,.chunho{
+    color: white;
+
+}
+.chuto{
+    font-weight: bold;
+    text-shadow: 5px 2px 4px grey;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.brown{
+    top: 37%;
+    font-size: 49px;
+    color: #402d17;
+}
+.chunho{
+    width: 450px;
+    position: absolute;
+    left: 50%;
+    top: 52%;
+    height: 100px;
+}
+.onnho{
+    text-shadow: 5px 2px 4px grey;
+    margin-bottom: 10px;
+    font-weight: normal;
+    width: 450px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.onhophai{
+    margin-left:30px ;
 }
