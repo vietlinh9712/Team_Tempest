@@ -24,26 +24,26 @@ img{
 .full{
     width: 100%;
 }
-.home{
+.homehai{
     height: 100px;
     padding: 0px 10px 0px 30px;
     background-color: white;
 
 }
-.left{
+.lefthai{
     padding: 10px 0;
     float: left;
     height: 90px;
     width: 20%;
 }
-.right {
+.righthai {
     height: 100%;
     float: right;
     width: 70%;
     color: #685e58;
     padding: 35px 50px 23px 10px;
 }
-.ul > li{
+.ulhai > li{
     float: right;
     margin-left:50px;
     list-style: none;
@@ -54,19 +54,19 @@ li > a{
     float: left;
     color: #685e58;
 }
-.anhnen{
+.anhnenhai{
     background-repeat: no-repeat;
     width: 100%;
     background-position:top;
     height: 563px;
-    background-image: url("../imgs/bg2.jpg");
+    background-image: url("../images/bg2.jpg");
     position: relative;
 }
-.chuto,.chunho{
+.chutohai,.chunhohai{
     color: white;
 
 }
-.chuto{
+.chutohai{
     font-weight: bold;
     text-shadow: 5px 2px 4px grey;
     position: absolute;
@@ -75,19 +75,19 @@ li > a{
     font-size: 40px;
     text-transform: uppercase;
 }
-.brown{
+.brownhai{
     top: 37%;
     font-size: 49px;
     color: #402d17;
 }
-.chunho{
+.chunhohai{
     width: 450px;
     position: absolute;
     left: 50%;
     top: 52%;
     height: 100px;
 }
-.onnho{
+.onnhohai{
     text-shadow: 5px 2px 4px grey;
     margin-bottom: 10px;
     font-weight: normal;
