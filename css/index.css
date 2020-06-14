@@ -22,5 +22,32 @@ img{
     margin: 0 auto;
 }
 .home{
+    height: 100px;
+    padding: 0px 10px 0px 30px;
+    background-color: silver;
 
+}
+.left{
+    padding: 10px 0;
+    float: left;
+    height: 90px;
+    width: 20%;
+}
+.right {
+    height: 100%;
+    float: right;
+    width: 70%;
+    color: #685e58;
+    padding: 30px 50px 23px 10px;
+}
+.ul > li{
+    float: right;
+    margin-left:25px;
+    list-style: none;
+    padding: 0px 0;
+}
+li > a{
+    font-size: 22px;
+    float: left;
+    color: #685e58;
 }
