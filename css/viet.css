@@ -1,0 +1,66 @@
+.Our-process .wrap-title{
+    margin-top: 30px;
+    height: 30px;
+    width: 100%;
+    background-image: url("https://fitnesszonewp.wpengine.com/wp-content/themes/fitnesszone/images/title-pattern.png");
+    text-align: center;
+}
+
+.Our-process .title{
+    background-color: white;
+    width: 20%;
+    height: 100%;
+    margin: 0 auto;
+    line-height: normal;
+}
+
+.Our-process .title_word{
+    font-size: 30px;
+    font-weight: 500;
+    clear: both;
+    background: white;
+}
+
+.Our-process .empty{
+    width: 100%;
+    height: 100px;
+}
+
+.Our-process .wrap-list-content{
+    width: 100%;
+    height: 200px;
+    float: left;
+    margin-top: 20px;
+    /*position: absolute;*/
+}
+
+.Our-process .wrap-content{
+    width: 25%;
+    height: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Our-process .wrap-content  .img-radius{
+    background-color: #88a00b;
+    border-radius: 100%;
+    border: 4px solid #536308;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.Our-process .content_word{
+    margin-top: 170px;
+    color: #1a1c19;
+    font-size: 20px;
+}
+
+.Our-process .img-radius:hover {
+    transform: scale(1.1);
+}
