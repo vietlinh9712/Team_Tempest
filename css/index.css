@@ -26,7 +26,7 @@ img{
 }
 .homehai{
     height: 100px;
-    padding: 0px 10px 0px 30px;
+    padding: 0 10px 0 30px;
     background-color: white;
 
 }
@@ -47,7 +47,7 @@ img{
     float: right;
     margin-left:50px;
     list-style: none;
-    padding: 0px 0;
+    padding: 0;
 }
 li > a{
     font-size: 20px;
@@ -97,4 +97,67 @@ li > a{
 }
 .onhophai{
     margin-left:30px ;
+}
+.medicine-blog{
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+}
+.mb-header{
+    text-align: center;
+}
+.mb-title{
+    background-image: url("https://fitnesszonewp.wpengine.com/wp-content/themes/fitnesszone/images/title-pattern.png");
+}
+.mb-title span{
+    padding: 15px;
+    text-transform: uppercase;
+    background-color: white;
+    font-weight: 600;
+    font-size: 25px;
+}
+.mb-1{
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.mb-2{
+    font-weight: 600;
+    color: rgba(0,0,0,0.5);
+}
+.mb-body{
+    float: left;
+    margin-top: 50px;
+}
+.mb-box{
+    float: left;
+    width: calc(30.33%);
+    height: auto;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,0.5);
+    margin-bottom: 100px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px #00000070;
+}
+.mb-img img{
+    border-radius: 5px;
+}
+.mb-img img:hover{
+    transform: scale(1.02);
+}
+.mb-information{
+    margin: 20px 0 0 0;
+}
+.mb-information p{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}
+.mb-information a p:hover{
+    color: red;
+}
+.mb-box.mid{
+    margin: 0 54px;
 }
