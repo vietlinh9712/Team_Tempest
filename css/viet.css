@@ -1,20 +1,29 @@
-.Our-process .wrap-title{
+.Our-process{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    display: block;
+}
+
+.wrap-title{
     margin-top: 30px;
     height: 30px;
     width: 100%;
     background-image: url("https://fitnesszonewp.wpengine.com/wp-content/themes/fitnesszone/images/title-pattern.png");
     text-align: center;
+    display: inline-block;
 }
 
-.Our-process .title{
+section .title{
     background-color: white;
-    width: 20%;
+    max-width: 20%;
+    width: auto;
     height: 100%;
     margin: 0 auto;
     line-height: normal;
 }
 
-.Our-process .title_word{
+section .title_word{
     font-size: 30px;
     font-weight: 500;
     clear: both;
@@ -29,9 +38,7 @@
 .Our-process .wrap-list-content{
     width: 100%;
     height: 200px;
-    float: left;
     margin-top: 20px;
-    /*position: absolute;*/
 }
 
 .Our-process .wrap-content{
@@ -63,4 +70,57 @@
 
 .Our-process .img-radius:hover {
     transform: scale(1.1);
+}
+
+.wrap-top-pic{
+    width: 100%;
+    height: 700px;
+}
+
+.wrap-top-pic .wrap-box{
+    width: 31.59%;
+    height: 70%;
+    border: 1px solid #e6e6e6;
+    float: left;
+    margin: 40px 10px;
+    color: #52514b;
+    box-sizing: border-box;
+    background-color: #bab9b3;
+}
+
+#title{
+    max-width: 30%;
+}
+
+.wrap-top-pic .See-more{
+    font-size: 1.3em;
+    width: 12%;
+    border: 1px solid #9bb70d;
+    background-color: #9bb70d;
+    display: flex;
+    border-radius: 20px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 23px;
+}
+
+.wrap-box .See-more a span{
+    text-align: center;
+    color: #685e58;
+}
+
+.img-in-box  img{
+    width: 100%;
+    height: 300px;
+}
+
+.wrap-box .content-in-box{
+    color: #685e58;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 22px;
+}
+
+.wrap-box:hover{
+    transform: scale(1.02);
 }

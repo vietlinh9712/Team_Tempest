@@ -1,11 +1,7 @@
-footer *{
-    color: white;
-    margin: 0 auto;
+footer a{
+    color: #1a1c19;
 }
-footer{
-    box-sizing: border-box;
-    font-family: 'PT Sans', sans-serif;
-}
+
 img{
     max-width: 100%;
 }
@@ -15,34 +11,42 @@ img{
     height: auto;
     width: 100%;
 }
-.list{
+footer .list{
     width: 25%;
     float: left;
 }
 
-.col{
+footer .col{
     margin: 20px;
+    color: #1a1c19;
 }
-.post{
+footer .post{
     width: 100%;
-    height: 100%;
+    height: 30%;
     float: left;
     margin: 0 0 50px 20px;
 }
-.posted{
-    width: auto;
+footer .posted{
+    width: 30%;
     height: 100%;
     float:left;
     margin-right: 10px;
 }
-a{
-    text-decoration: none;
+
+footer .posted1{
+    height: 100%;
+    float: left;
 }
-a:hover{
+
+footer title a{
+    width: 100%;
+}
+
+footer a:hover{
     color: #9bb70d;
     text-decoration: none;
 }
-.post2{
+footer .post2{
     width: 90%;
     height: 100%;
     float: left;
@@ -51,13 +55,15 @@ a:hover{
     margin: 0 30px 20px 10px;
     padding: 5px;
 }
-.time{
+footer .time{
     color: darkgray;
 }
-.title{
-    font-size: 20px;
+footer .title{
+    font-size: 18px;
 }
-.ram a:hover{
+
+
+footer .ram a:hover {
     color: white;
 }
 .contact{
@@ -67,19 +73,28 @@ a:hover{
     height: 100%;
     float: left;
 }
-.icon{
+footer .icon{
     font-size: 50px;
 }
-.icon i{
+footer .icon i{
     text-align: center;
     padding-right:50px ;
 }
-.introduce{
+footer .introduce{
     float: left;
     width: 14%;
     height: 100%;
     padding:20px 0;
+    color: white;
 }
-.end{
+footer .end{
     padding: 5px 0;
+}
+
+footer .fab{
+    color: white;
+}
+
+footer .fab:hover{
+    color: #9bb70d;
 }
