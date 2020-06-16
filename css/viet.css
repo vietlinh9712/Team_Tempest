@@ -124,3 +124,11 @@ section .title_word{
 .wrap-box:hover{
     transform: scale(1.02);
 }
+
+.wrap-top-pic a{
+    color: #1a1c19;
+}
+
+.content-in-box > a{
+    color: rebeccapurple;
+}
