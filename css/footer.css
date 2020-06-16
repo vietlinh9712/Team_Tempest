@@ -1,10 +1,20 @@
-footer a{
-    color: #1a1c19;
+footer *{
+    color: white;
+    margin: 0 auto;
 }
-
+footer{
+    box-sizing: border-box;
+    block-size: auto;
+    font-family: 'PT Sans', sans-serif;
+}
 img{
     max-width: 100%;
 }
+footer .container2{
+    width: 100%;
+    margin: 0 auto;
+}
+
 .menu {
     background-color: #0f6848;
     overflow: auto;
@@ -18,129 +28,22 @@ footer .list{
 
 footer .col{
     margin: 20px;
-    color: #1a1c19;
 }
 footer .post{
     width: 100%;
-    height: 30%;
+    height: 100%;
     float: left;
     margin: 0 0 50px 20px;
 }
 footer .posted{
-    width: 30%;
+    width: auto;
     height: 100%;
     float:left;
     margin-right: 10px;
 }
-
-footer .posted1{
-    height: 100%;
-    float: left;
-}
-
-footer title a{
-    width: 100%;
-}
-
-footer a:hover{
-    color: #9bb70d;
-    text-decoration: none;
-}
-footer .post2{
-    width: 90%;
-    height: 100%;
-    float: left;
-    border-top: solid 1px gray;
-    border-bottom: solid 1px gray;
-    margin: 0 30px 20px 10px;
-    padding: 5px;
-}
-footer .time{
-    color: darkgray;
-}
-footer .title{
-    font-size: 18px;
-}
-
-
-footer .ram a:hover {
-    color: white;
-}
-.contact{
-    width: 100%;
-    background-color: black;
-    text-align: center;
-    height: 100%;
-    float: left;
-}
-footer .icon{
-    font-size: 50px;
-}
-footer .icon i{
-    text-align: center;
-    padding-right:50px ;
-}
-footer .introduce{
-    float: left;
-    width: 14%;
-    height: 100%;
-    padding:20px 0;
-    color: white;
-}
-footer .end{
-    padding: 5px 0;
-}
-
-footer .fab{
-    color: white;
-}
-
-footer .fab:hover{
-    color: #9bb70d;
 footer a{
-    color: #1a1c19;
+    text-decoration: none;
 }
-
-footer img{
-    max-width: 100%;
-}
-.menu {
-    background-color: #0f6848;
-    overflow: auto;
-    height: auto;
-    width: 100%;
-}
-footer .list{
-    width: 25%;
-    float: left;
-}
-
-footer .col{
-    margin: 20px;
-    color: #1a1c19;
-}
-footer .post{
-    width: 100%;
-    height: 30%;
-    float: left;
-    margin: 0 0 50px 20px;
-}
-footer .posted{
-    width: 30%;
-    height: 100%;
-    float:left;
-    margin-right: 10px;
-}
-
-footer .posted1{
-    height: 100%;
-    float: left;
-}
-
-footer title a{
-    width: 100%;
-}
-
 footer a:hover{
     color: #9bb70d;
     text-decoration: none;
@@ -158,11 +61,9 @@ footer .time{
     color: darkgray;
 }
 footer .title{
-    font-size: 18px;
+    font-size: 20px;
 }
-
-
-footer .ram a:hover {
+footer .ram a:hover{
     color: white;
 }
 .contact{
@@ -184,21 +85,13 @@ footer .introduce{
     width: 14%;
     height: 100%;
     padding:20px 0;
-    color: white;
 }
 footer .end{
     padding: 5px 0;
 }
 
-footer .fab{
-    color: white;
-}
-
-footer .fab:hover {
-    color: #9bb70d;
-}
 @media only screen and (max-width: 768px) {
-    .list {
+     footer .list {
         width: 50%;
     }
 }
